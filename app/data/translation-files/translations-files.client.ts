@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import { accessSync } from 'node:fs';
 import assert from 'node:assert';
 import { z } from 'zod/v4';
-import { Observable } from "../../../libraries/my-custom-observables/Observable";
+import { Observable } from "observable";
 
 type TranslationFiles = Map<string, Record<string, string>>;
 
